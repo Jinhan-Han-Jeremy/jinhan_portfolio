@@ -1,0 +1,363 @@
+
+
+.App {
+    text-align: center;
+  }
+  
+  
+  body,
+  html {
+      width: 100%;
+      height: 100%;  
+  }
+  
+  body,h1,h2,h3,h4,h5,h6 {
+      font-family: "Lato";
+      font-weight: bold;
+  }
+  
+  .topnav {
+      font-size: 22px;
+      border-bottom: 1px outset rgba(192, 192, 192, 1);
+      background: white;
+      
+  }
+  
+  .topnav ul.navbar-nav li a {
+  background: white;
+  color: grey;
+  }
+  
+  .topnav ul.navbar-nav li a:hover,
+  .topnav ul.navbar-nav li a:focus 
+  {
+  background: rgba(100, 100, 100, 0.7);
+  color: black;
+  }
+  
+  .lead {
+      font-size: 25px;
+      font-weight: bold;
+  }
+  /*top background*/
+  .intro-header { 
+      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+      padding-bottom: 50px;
+      text-align: center;
+      background: url('https://pbs.twimg.com/media/EaoDzWvU8AE88c5?format=jpg&name=medium') no-repeat center center fixed;
+      background-size: cover;
+      height: 700px;
+  }
+  .bg-overlay {
+    background:rgba(0,0,0, 0.7);
+    height: 700px;
+  }
+  
+  .intro-message {
+      position: relative;
+      padding-top: 20%;
+      padding-bottom: 20%;
+  }
+  /*Big header*/
+  .intro-message > h1 {
+      margin-top: -50px;
+      text-shadow: 2px 1px 2px black;
+      font-size: 5em;
+      color: white;
+  }
+  .intro-message > h2 {
+      margin-top: 0;
+      text-shadow: 2px 2px 2px black;
+      font-size: 5em;
+      color: white;
+  }
+  
+  
+  .intro-divider {
+      width: 400px;
+      border-top: 1px solid #f8f8f8;
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+  /*small header*/
+  .intro-message > h3 {
+      text-shadow: 1px 1px 1px black;
+    color: white;
+  }
+  
+  @media(max-width:767px) {
+      .intro-message {
+          padding-bottom: 15%;
+      }
+  
+      .intro-message > h1 {
+          font-size: 3em;
+      }
+  
+      ul.intro-social-buttons > li {
+          display: block;
+          margin-bottom: 20px;
+          padding: 0;
+      }
+  
+      ul.intro-social-buttons > li:last-child {
+          margin-bottom: 0;
+      }
+  
+      .intro-divider {
+          width: 100%;
+      }
+  }
+  
+  /* social buttons */
+  .btn {
+    display: inline-block;
+    color: black;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: white;
+  
+    box-shadow: 3px 3px 3px black;
+    
+    letter-spacing: 2px;
+    transition: 0.2s;
+  }
+  
+  .btn:hover {
+      color: white;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    
+    transform:scale(1.1);
+    transition: 0.2s;
+  
+    box-shadow: 3px 3px 3px black;
+    letter-spacing: 2px;
+  }
+  
+  
+  /*section 2*/
+  .content-section-a {
+      padding: 50px 0;
+      background: url('https://pbs.twimg.com/media/Ea3Ac5vUEAEs93Y?format=jpg&name=large') no-repeat center center fixed;
+      background-size: cover;
+      height: 855px;
+  }
+  
+  .bg-overlay2 {
+    margin-top: -50px;
+    background: rgba(255, 255, 255, 0.7);
+    height: 855px;
+  }
+  
+  h2.section-heading {
+      margin-top: 100px;
+      font-size: 3em;
+      
+      color: rgba(0, 0, 0, 1);
+  }
+  
+    /*text*/
+   .content-section-a p {
+      font-size: 22px;
+     font-weight: bold;
+      color: black;
+    }
+  
+  /*profile picture*/
+  .resume_photo {
+    margin-top: 150px;
+    height: 450px;
+    width: 400px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  }
+  
+  
+  .content-section-b {
+      padding: 50px 0;
+      background: white no-repeat center center fixed;
+      background-size: cover;
+      height: 650px;
+  }
+  
+  .bg-overlay3 {
+    margin-top: -50px;
+    background: rgba(255, 255, 255, 0.7);
+    height: 650px;
+  }
+  
+  h2.section-heading1 {
+      margin-top: 100px;
+      font-size: 3em;
+      color: rgba(0, 0, 0, 1);
+  }
+  
+    /*text*/
+   .content-section-b p {
+      font-size: 22px;
+     font-weight: bold;
+      color: black;
+    }
+  
+  /*Skill sets*/
+  .bar{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #f3b0ff;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: #ffcc33;
+  }
+  .bar.back::before{
+    background-color: #a6cfe3;
+  }
+  
+  .bar.learning::before{
+    width: calc(60% - 10px);
+  }
+  .bar.learning1::before{
+    width: calc(30% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(60% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(65% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(70% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(70% - 10px);
+  }
+  .bar.expert2::before{
+    width: calc(55% - 10px);
+  }
+  
+  /*profile picture*/
+  .skill_map {
+    margin-top: 100px;
+    height: 435px;
+    width: 455px;
+    
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  }
+  
+  /* Portfolio section*/
+  section {
+    color: black;
+    background: url('https://pbs.twimg.com/media/FQ5-czcVcAE7g1s?format=jpg&name=900x900') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /*.portfolio-item {
+    overflow: hidden;
+    padding: 7px;
+    color: white;
+    height: 308px;
+  }*/
+  /*Portfolio items*/
+  
+  #portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0;
+    border: 1px outset rgba(255, 255, 255, 0.5);
+  }
+  
+  #portfolio .portfolio-item:hover {
+    transition: 0.5s;
+    box-shadow: 5px 10px 5px rgba(0,0,0,1);
+  }
+  
+  #portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0, 0.8);
+    text-align: center;
+    padding: 25px;
+  }
+  
+  #portfolio .portfolio-item .portfolio-caption h4 {
+    color: white;
+    text-transform: none;
+    margin: 0;
+  }
+  
+  #portfolio .portfolio-item .portfolio-caption p {
+    font-family: "Arial";
+    font-style: italic;
+    color: gold;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  @media (min-width:767px) {
+    #portfolio .portfolio-item {
+      margin: 0 0 30px;
+    }
+  }
+  
+  .banner {
+      padding: 100px 0;
+      background: url('https://68.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 300px;
+  }
+  
+  .bg-overlay4 {
+    margin-top: -100px;
+    padding: 100px 0;
+    background: rgba(255,255,255, 0.7);
+    height: 300px;
+  }
+  
+  .banner ul {
+      margin-bottom: 0;
+  }
+  
+  .banner-social-buttons {
+      float: right;
+      margin-top: 0;
+  }
+  
+  @media(max-width:1199px) {
+      ul.banner-social-buttons {
+          float: left;
+          margin-top: 15px;
+      }
+  }
+  
+      ul.banner-social-buttons > li {
+          display: block;
+          margin-bottom: 20px;
+          padding: 0;
+      }
+  
+      ul.banner-social-buttons > li:last-child {
+          margin-bottom: 0;
+      }
+  
+  footer {
+      padding: 50px 0;
+      background: white;
+  }
+  
+  

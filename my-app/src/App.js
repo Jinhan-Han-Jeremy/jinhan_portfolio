@@ -89,7 +89,7 @@ function App() {
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Data analytics/analyst</h1>
+                        <h1>Data analyst</h1>
                         <h2><strong>Jinhan Han portfolio</strong></h2>
                       
                         <h3><strong>Data analyst/Data analytics/Data support engineer</strong></h3>

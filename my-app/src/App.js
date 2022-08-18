@@ -20,12 +20,12 @@ function App() {
 <head>
     <meta name="robots" content="index, follow"></meta> 
     
-    <title><strong>data analyst, data analytics portfolio Jinhan Han</strong></title>
+    <title><strong>data analyst jinhan han portfolio</strong></title>
     
     <meta name= "description" content= "Are you looking and recruiting for a data analyst data analyst/data analytics? I am looking for a data analyst/data analytics job opportunity. Hi my name is jinhan Han This is data analyst/data analytics portfolio including data analysis projects, for example causal analytics, Exploaratory data analysis, prescriptive analysis, causal analytics, prescriptive analytics, statistical analysis and so on. Experiences : 2 years, July 2022"></meta>
-    <meta name= "keywords" content= "data,analyst,dataanalyst,dataanalytics,dataanalysis,analysis,dataanalysis,datascientist,portfolio,project,IT,engineer,softwareengineer"></meta>
+    <meta name= "keywords" content= "data,analyst,dataanalyst,dataanalytics,dataanalysis,analysis,dataanalysis,datascientist, jinhanhan, portfolio,project,IT,engineer,softwareengineer"></meta>
     <meta property= "og:type" content= "website"></meta>
-    <meta property= "og:title" content= "data, dataanalyst, dataanalytics portfolio Jinhan Han"></meta>
+    <meta property= "og:title" content= "data, dataanalyst, data analyst jinhan han portfolio"></meta>
     <meta property= "og:description" content= "I am looking for a data analyst/data analytics job opportunity. Hi my name is jinhan Han This is data analyst/data analytics portfolio including data analysis projects, for example causal analytics, Exploaratory data analysis, prescriptive analysis, causal analytics, prescriptive analytics, statistical analysis and so on. Experiences : 2 years, July 2022"></meta>
 
     <meta property= "og:image" content= "https://pbs.twimg.com/media/FaQoVSlUIAIFCTH?format=jpg&name=large"></meta>
@@ -59,6 +59,12 @@ function App() {
                     </li>
                     <li>
                         <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#experiences">Experiences</a>
+                    </li>
+                    <li>
+                        <a href="#skillsets">Skills</a>
                     </li>
                     <li>
                         <a href="#portfolio">Portfolio</a>
@@ -123,9 +129,9 @@ function App() {
                         <h2 class="section-heading">Data analyst/Data analytics Jinhan Han</h2>
                         <p class="lead"> Major : Computational mathematics <br />
                                     Minor : Computer science<br />
-                                    I'm a daata analytics, data supporter engineer in the USA.
-                                    I am graduating San Jose State University in May 2022. I have studied Statistics, data analysis and computer languages.<br /><br />
-                                    Interested Fields:<br /> Statistics and analysis, Blockchain System, Cloud engineer and Big Data analysis-RDD-and so on<br /><br />
+                                    I'm a data analytics, data supporter engineer in the USA.
+                                    I graduated San Jose State University in May 2022. I have studied Statistics, data analysis and computer languages.<br /><br />
+                                    Interested <br /> Fields : Statistics and analysis, Blockchain System, Cloud engineer and Big Data analysis-RDD-and so on<br /><br />
                                     My strengths : I like to think and develop analysis methods. Especially, my statistical knowledges are various and deep due to the educational background. I don't hesitate learning new technologies.<br />
                                     Also, consistant learning gives me various wisdoms to develop new things with various challenges. 
                         </p>
@@ -143,7 +149,7 @@ function App() {
         </div>
     </div>
 
-
+    <a  name="experiences"></a>
     <div class = "content-section-a-2">
       <div class="bg-overlay2">
         <div class="container">
@@ -151,14 +157,14 @@ function App() {
 
                 <div class="col-lg-6 col-sm-9" align="left">
                     
-                        <h2 class="section-heading">Maha Technologies, Toronto, Canada</h2>
-                        <p class="lead">Experience : Data analyst -Remote- SEP 2019 ~ MAR 2021<br />
-                        Field : IT recruit marketing and recruit program management service<br />
-                        * Discovered cause in correlations of large customer and sales data with Python - Exploratary Data analysis-<br />
+                        <h2 class="section-heading">Experience : Maha Technologies, Toronto, Canada</h2>
+                        <p class="lead">Experience : Data analyst (Remote- SEP 2019 ~ MAR 2021)<br /><br/>
+                        Field : IT recruit marketing and recruit program management service<br /><br/>
+                        * Discovered cause in correlations of large customer and sales data with Python (Exploratary Data analysis)<br />
                         * Delivered sales data and ETL process with Python, Pyspark and SQL -30~35% data cleaned- <br />
                         * Summarized sales data to readable data to show future customers<br /> 
                         * Performed A/B testing to validate marketing services, advertisements and education programs affecting sales<br />
-                        * Presented target customers of any significant concerns for sales improvement -KPI reduced marketing costs-<br />
+                        * Presented target customers of any significant concerns for sales improvement (KPI reduced marketing costs)<br />
                         </p>
                         
                     </div>
@@ -180,30 +186,25 @@ function App() {
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 col-sm-8" align="left">
+                <div class="col-lg-10" align="left">
                     
-                        <h2 class="section-heading">Flipy -Shaco LLC-, Santa Clara CA</h2>
-                        <p class="lead">Experience : Data analytics researcher and technical supporter Intern <br />
-                                    Field : Business SNS and start up business service <br />
-                                    * Researched market data of startup industries -The data report was used for Flipy pitch deck- <br/>
+                        <h2 class="section-heading">Experience : Flipy -Shaco LLC-, Santa Clara CA</h2>
+                        <p class="lead">Experience : Data analytics researcher and technical supporter Intern <br /><br/>
+                                    Field : Business SNS and start up business service <br /><br />
+                                    * Researched market data of startup industries. (The data report was used for Flipy pitch deck) <br/>
                                     * Assessed web site UI/UX quality of web applications and data dashboards <br/>
-                                    * Developed functions transcending data -React, Node.js and Mongo DB- with ETL system
+                                    * Developed functions transcending data (React, Node.js and Mongo DB-with ETL system)
                         </p>
                         
-                        <h2 class="section-heading">Arc allsense, Brea, CA</h2>
-                    <p class="lead">Experience : Data analyst and support manager Dec 2022 ~ Present<br />
-                                Field : E-commerce, ad marketing and warehouse services<br />
-                                * Optimized sales through the analysis of seasonal selling items -Around 15% sales increased-<br/>
-                                * Reduced work process by development of automation systems to list supplied items -Rduced around 10% process-<br/>
+                        <h2 class="section-heading">Experience : Arc allsense, Brea, CA</h2>
+                    <p class="lead">Experience : Data analyst and support manager (Dec 2022 ~ Present)<br /><br/>
+                                Field : E-commerce, ad marketing and warehouse services<br /><br/>
+                                * Optimized sales through the analysis of seasonal selling items (Around 15% sales increased)<br/>
+                                * Reduced work process by development of automation systems to list supplied items (Rduced around 10% process)<br/>
                                 * Managed e-commerce shopify front-end design and functions<br/>
                                 * Managed marketing and advertisements operations
                     </p>
 
-                    </div>
-            
-
-                    <div class="col-lg-4 col-lg-offset-2 col-sm-6 collapse navbar-collapse">
-                        <img class="resume_photo" src="https://pbs.twimg.com/media/FaP_riHUIAA18qe?format=jpg&name=large" alt="data project management"/>
                     </div>
 
               </div>
@@ -213,7 +214,7 @@ function App() {
     </div>
 
 
-
+        <a  name="skillsets"></a>
         <div class="content-section-b">
           <div class="bg-overlay3">
             <div class="container">
@@ -250,7 +251,7 @@ function App() {
                 <div class="row">
 
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Awesomeness Portfolio.</h2>
+                        <h2 class="section-heading">Portfolio.</h2>
                         <h3>Below you'll find some of my recent work.</h3>
                     </div>
                 </div>
@@ -354,18 +355,14 @@ function App() {
         </section>
 
 
-
-
 	    <a  name="contact"></a>
         <div class="banner">
           <div class="bg-overlay4">
             <div class="container">         
                 <div class="row">
                     <div class="col-lg-8" align="left">
-                      <h2> E-mail : jeremy.han.data@gmail.com<br/>
+                      <h2> E-mail : jeremy.han.data@gmail.com<br/> <br/> 
                       <p>Phone : 415-730-9025</p>
-                      <p>Expected Salary : At least $65000/yr - $35/hr</p>
-                      <p>Please don't contact me. career tele marketers </p>
                       
                         </h2>
                     </div>
@@ -377,6 +374,7 @@ function App() {
                                 <li>
                                     <a href="https://github.com/Jinhan-Han-Jeremy" target="_blank" class="btn btn-default btn-lg "><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                                 </li>
+                
                                 <li>
                                     <a href="https://www.linkedin.com/in/jinhan-jeremy-han/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                                 </li>

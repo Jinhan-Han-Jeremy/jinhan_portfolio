@@ -160,7 +160,7 @@ color: black;
 
 .bg-overlay2 {
   margin-top: -40px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   height: 980px;
 }
 
@@ -191,7 +191,7 @@ h2.section-heading {
 .resume_photo {
   margin-top: 140px;
   height: 600px;
-  width: 360px;
+  width: 400px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
@@ -278,7 +278,7 @@ h2.section-heading1 {
 /* Portfolio section*/
 section {
   color: black;
-  background: url('https://pbs.twimg.com/media/FaPfPmEVEAEghYm?format=png&name=900x900') no-repeat center center fixed;
+  background-color: whitesmoke; 
   background-size: cover;
 }
 
@@ -323,7 +323,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Arial";
+  font-family: "Montserrat";
   font-style: italic;
   color: gold;
   font-size: 14px;

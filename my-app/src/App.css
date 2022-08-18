@@ -17,7 +17,7 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .topnav {
-    font-size: 22px;
+    font-size: 20px;
     border-bottom: 1px outset rgba(192, 192, 192, 1);
     background: white;
     
@@ -36,7 +36,7 @@ color: black;
 }
 
 .lead {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
 }
 /*top background*/
@@ -46,11 +46,11 @@ color: black;
     text-align: center;
     background: url('https://pbs.twimg.com/media/EaoDzWvU8AE88c5?format=jpg&name=medium') no-repeat center center fixed;
     background-size: cover;
-    height: 700px;
+    height: 800px;
 }
 .bg-overlay {
   background:rgba(0,0,0, 0.7);
-  height: 700px;
+  height: 800px;
 }
 
 .intro-message {
@@ -70,6 +70,9 @@ color: black;
     text-shadow: 2px 2px 2px black;
     font-size: 5em;
     color: white;
+}
+.intro-message > h4 {
+  color: white;
 }
 
 
@@ -135,16 +138,30 @@ color: black;
 
 /*section 2*/
 .content-section-a {
-    padding: 50px 0;
+    padding: 150px 0;
     background: url('https://pbs.twimg.com/media/Ea3Ac5vUEAEs93Y?format=jpg&name=large') no-repeat center center fixed;
     background-size: cover;
-    height: 855px;
+    height: 980px;
+}
+
+.content-section-a-2 {
+  padding: 40px 0;
+  background: url('https://pbs.twimg.com/media/FaPyRF2UEAAFePW?format=jpg&name=4096x4096') no-repeat center center fixed;
+  background-size: cover;
+  height: 980px;
+}
+
+.content-section-a-3 {
+  padding: 40px 0;
+  background: url('https://pbs.twimg.com/media/FaP7ttaUEAAOnhp?format=jpg&name=large') no-repeat center center fixed;
+  background-size: cover;
+  height: 980px;
 }
 
 .bg-overlay2 {
-  margin-top: -50px;
-  background: rgba(255, 255, 255, 0.7);
-  height: 855px;
+  margin-top: -40px;
+  background: rgba(255, 255, 255, 0.8);
+  height: 980px;
 }
 
 h2.section-heading {
@@ -160,18 +177,27 @@ h2.section-heading {
    font-weight: bold;
     color: black;
   }
-
+  .content-section-a-2 p {
+    font-size: 22px;
+   font-weight: bold;
+    color: black;
+  }
+  .content-section-a-3 p {
+    font-size: 22px;
+   font-weight: bold;
+    color: black;
+  }
 /*profile picture*/
 .resume_photo {
-  margin-top: 150px;
-  height: 450px;
-  width: 400px;
+  margin-top: 140px;
+  height: 600px;
+  width: 360px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 30px 0;
     background: white no-repeat center center fixed;
     background-size: cover;
     height: 650px;
@@ -179,12 +205,12 @@ h2.section-heading {
 
 .bg-overlay3 {
   margin-top: -50px;
-  background: rgba(255, 255, 255, 0.7);
-  height: 650px;
+  background: rgba(255, 255, 255, 0.75);
+  height: 980px;
 }
 
 h2.section-heading1 {
-    margin-top: 100px;
+    margin-top: 30px;
     font-size: 3em;
     color: rgba(0, 0, 0, 1);
 }
@@ -230,13 +256,13 @@ h2.section-heading1 {
   width: calc(30% - 10px);
 }
 .bar.basic::before{
-  width: calc(60% - 10px);
+  width: calc(80% - 10px);
 }
 .bar.intermediate::before{
-  width: calc(65% - 10px);
+  width: calc(75% - 10px);
 }
 .bar.advanced::before{
-  width: calc(70% - 10px);
+  width: calc(75% - 10px);
 }
 .bar.expert::before{
   width: calc(70% - 10px);
@@ -244,20 +270,15 @@ h2.section-heading1 {
 .bar.expert2::before{
   width: calc(55% - 10px);
 }
-
-/*profile picture*/
-.skill_map {
-  margin-top: 100px;
-  height: 435px;
-  width: 455px;
-  
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+.bar.expert3::before{
+  width: calc(75% - 10px);
 }
+
 
 /* Portfolio section*/
 section {
   color: black;
-  background: url('https://pbs.twimg.com/media/FQ5-czcVcAE7g1s?format=jpg&name=900x900') no-repeat center center fixed;
+  background: url('https://pbs.twimg.com/media/FaPfPmEVEAEghYm?format=png&name=900x900') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -290,7 +311,7 @@ section {
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0,0,0, 0.75);
   text-align: center;
   padding: 25px;
 }
@@ -325,7 +346,7 @@ section {
 .bg-overlay4 {
   margin-top: -100px;
   padding: 100px 0;
-  background: rgba(255,255,255, 0.7);
+  background: rgba(255,255,255, 0.75);
   height: 300px;
 }
 

@@ -134,7 +134,7 @@ function App() {
 
 
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6 collapse navbar-collapse">
-                        <img class="resume_photo" src="https://media-exp1.licdn.com/dms/image/C4E03AQEIR7L929JTFQ/profile-displayphoto-shrink_800_800/0/1594965461640?e=1655942400&v=beta&t=Vs4BZjMXNtiGM3X7hG5zsHLP3gJl40DaMU5v0S2zc9A" alt="data anlyst resume jinhan han"/>
+                        <img class="resume_photo" src="https://pbs.twimg.com/media/FadqRswVEAA_haF?format=jpg&name=medium" alt="data anlyst resume jinhan han"/>
                     </div>
 
               </div>

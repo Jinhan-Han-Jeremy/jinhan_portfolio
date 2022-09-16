@@ -129,11 +129,13 @@ function App() {
                         <h2 class="section-heading">Data analyst/Data analytics Jinhan Han</h2>
                         <p class="lead"> Major : Computational mathematics <br />
                                     Minor : Computer science<br />
-                                    I'm a data analytics, data supporter engineer in the USA.
+                                    I'm a data analyst, data supporter engineer in the USA.
                                     I graduated San Jose State University in May 2022. I have studied Statistics, data analysis and computer languages.<br /><br />
-                                    Interested <br /> Fields : Statistics and analysis, Blockchain System, Cloud engineer and Big Data analysis-RDD-and so on<br /><br />
-                                    My strengths : I like to think and develop analysis methods. Especially, my statistical knowledges are various and deep due to the educational background. I don't hesitate learning new technologies.<br />
-                                    Also, consistant learning gives me various wisdoms to develop new things with various challenges. 
+                                    Interested Fields : <br />  data analysis with statistics, SQL, Python and Tableau, Business research, Cloud engineer and Big Data analysis-RDD-and so on<br /><br />
+                                    My strengths : I like to think and develop analysis methods. Especially, my statistical knowledges and analysis strategies are various and deep due to the educational background. I don't hesitate learning new technologies.<br />
+                                    When it comes to analyzing reasonable proof, the data analysis which is intimately related with mathematical strategies are highly possible to avoid making failed data analysis since mathematical theories have proved correct results and process during long history. 
+                                    I believe my mathematical and strategical understanding will reduce risks of making wrong data reports. <br/>Thus, that backgrounds will collect and analyze valuable data based on rational proof to make beneficial insights for your company.
+                                    Also, personal study about domain knowledges and coding skills have been developing my skills in various respects. That strengths obviously satisfy your company.
                         </p>
                         
                     </div>

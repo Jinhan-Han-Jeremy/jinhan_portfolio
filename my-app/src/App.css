@@ -141,7 +141,7 @@ color: black;
     padding: 150px 0;
     background: url('https://pbs.twimg.com/media/Ea3Ac5vUEAEs93Y?format=jpg&name=large') no-repeat center center fixed;
     background-size: cover;
-    height: 980px;
+    height: 1500px;
 }
 
 .content-section-a-2 {
@@ -161,7 +161,7 @@ color: black;
 .bg-overlay2 {
   margin-top: -40px;
   background: rgba(255, 255, 255, 0.9);
-  height: 980px;
+  height: 1500px;
 }
 
 h2.section-heading {

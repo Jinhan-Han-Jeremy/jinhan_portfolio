@@ -337,15 +337,15 @@ function App() {
 
               {/* Portfolio img6 */}
                     <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="https://codepen.io/ThiagoFerreir4/full/EjwGoX/" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <a href="https://github.com/Jinhan-Han-Jeremy/data_analysis_for_sakila" target="_blank" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
 
                             </div>
-                            <img src="https://68.media.tumblr.com/030b4966650a0d1dac0bbcca6fe572e8/tumblr_nxhm7qz6Y91ud7rr3o1_1280.jpg" alt=""  width="300" height="300"/>
+                            <img src="https://pbs.twimg.com/media/FckmdBBacAUGyHz?format=jpg&name=large" alt=""  width="300" height="300"/>
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Pacman Tic Tac Toe</h4>
-                            <p>CSS and jQuery</p>
+                            <h4>data_analysis_for_sakila</h4>
+                            <p>Data analysis with Python and MYSQL, pymysql.connect, Subqueries, JOIN and DBMS<br/><i>-Coding Level : mid-</i></p>
                         </div>
                     </div>
               {/* End of Portfolio img6 */}

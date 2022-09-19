@@ -148,14 +148,14 @@ color: black;
   padding: 40px 0;
   background: url('https://pbs.twimg.com/media/FaPyRF2UEAAFePW?format=jpg&name=4096x4096') no-repeat center center fixed;
   background-size: cover;
-  height: 980px;
+  height: 1180px;
 }
 
 .content-section-a-3 {
   padding: 40px 0;
   background: url('https://pbs.twimg.com/media/FaP7ttaUEAAOnhp?format=jpg&name=large') no-repeat center center fixed;
   background-size: cover;
-  height: 980px;
+  height: 1180px;
 }
 
 .bg-overlay2 {
@@ -206,7 +206,7 @@ h2.section-heading {
 .bg-overlay3 {
   margin-top: -50px;
   background: rgba(255, 255, 255, 0.75);
-  height: 980px;
+  height: 1180px;
 }
 
 h2.section-heading1 {

@@ -131,11 +131,11 @@ function App() {
                                     Minor : Computer science<br />
                                     I'm a data analyst, data supporter engineer in the USA.
                                     I graduated San Jose State University in May 2022. I have studied Statistics, data analysis and computer languages.<br /><br />
-                                    Interested Fields : <br />  data analysis with statistics, SQL, Python and Tableau, Business research, Cloud engineer and Big Data analysis-RDD-and so on<br /><br />
+                                    Interested Fields : <br />  data analysis with statistics, SQL, Python and Tableau, Business and psychological research, Cloud engineer and Big Data analysis-RDD-and so on<br /><br />
                                     My strengths : I like to think and develop analysis methods. Especially, my statistical knowledges and analysis strategies are various and deep due to the educational background. I don't hesitate learning new technologies.<br />
-                                    When it comes to analyzing reasonable proof, the data analysis which is intimately related with mathematical strategies are highly possible to avoid making failed data analysis since mathematical theories have proved correct results and process during long history. 
-                                    I believe my mathematical and strategical understanding will reduce risks of making wrong data reports. <br/>Thus, that backgrounds will collect and analyze valuable data based on rational proof to make beneficial insights for your company.
-                                    Also, personal study about domain knowledges and coding skills have been developing my skills in various respects. That strengths obviously satisfy your company.
+                                    When it comes to analyzing reasonable proofs, the mathematical strategies are highly possible to avoid making failed data analysis since mathematical theories have proved correct process. 
+                                    I believe my mathematical and strategical understanding will reduce risks of reporting wrong insights. <br/>Summary : <br/>causal/prescriptive/descriptive/statistical analysis, Python/SQL/Tableau, broad software experiences
+                                    <br/>Also, personal study about domain knowledges and coding skills have been developing my skills in various respects. That strengths obviously satisfy your company.
                         </p>
                         
                     </div>
@@ -161,12 +161,15 @@ function App() {
                     
                         <h2 class="section-heading">Experience : Maha Technologies, Toronto, Canada</h2>
                         <p class="lead">Experience : Data analyst (Remote- SEP 2019 ~ MAR 2021)<br /><br/>
-                        Field : IT recruit marketing and recruit program management service<br /><br/>
-                        * Discovered cause in correlations of large customer and sales data with Python (Exploratary Data analysis)<br />
-                        * Delivered sales data and ETL process with Python, Pyspark and SQL -30~35% data cleaned- <br />
-                        * Summarized sales data to readable data to show future customers<br /> 
-                        * Performed A/B testing to validate marketing services, advertisements and education programs affecting sales<br />
-                        * Presented target customers of any significant concerns for sales improvement (KPI reduced marketing costs)<br />
+                        Field : IT recruit marketing and recruit program management service<br />
+                        * Performed A/B testing to validate sales affections by marketing services, advertisements and education programs <br/>
+                        * Reduced marketing costs devloping KPI about total sales and customers’ consumption data patterns<br/>
+                        * Validated hypothesis related with customer achievement data using AB test with conditional probability<br/>
+                        * Recommended effective services to achieve demands of customers analyzing types of services with statistics<br/>
+                        * Discovered causes in correlations of large customer and sales data with Python - Exploratary Data analysis in python 
+                        * Cleaned 30~35% service and customers’ consumption data with Pyspark in ETL process<br/>
+                        * Wrote SQL queries to make summarized data customer and sales data in SSIS and SSRS connected to data base<br/>
+                        * Visualized total sales, customer and consumption data patterns in Tableau<br/>
                         </p>
                         
                     </div>
@@ -193,6 +196,7 @@ function App() {
                         <h2 class="section-heading">Experience : Flipy -Shaco LLC-, Santa Clara CA</h2>
                         <p class="lead">Experience : Data analytics researcher and technical supporter Intern <br /><br/>
                                     Field : Business SNS and start up business service <br /><br />
+                                    * Classified structured business network data from unstructured raw data as collecting data with google forms<br/>
                                     * Researched market data of startup industries. (The data report was used for Flipy pitch deck) <br/>
                                     * Assessed web site UI/UX quality of web applications and data dashboards <br/>
                                     * Developed functions transcending data (React, Node.js and Mongo DB-with ETL system)
@@ -201,8 +205,9 @@ function App() {
                         <h2 class="section-heading">Experience : Arc allsense, Brea, CA</h2>
                     <p class="lead">Experience : Data analyst and support manager (Dec 2022 ~ Present)<br /><br/>
                                 Field : E-commerce, ad marketing and warehouse services<br /><br/>
-                                * Optimized sales through the analysis of seasonal selling items (Around 15% sales increased)<br/>
-                                * Reduced work process by development of automation systems to list supplied items (Rduced around 10% process)<br/>
+                                * Categorized over 200 supplied items data by color and types to find popular and unpopular items<br/>
+                                * Increased around 15% total sales optimizing the selling rates of seasonal items, compared to spring session<br/>
+                                * Reduced 2~3 hours of item listing work process developing python automations to update selling lists<br/>
                                 * Managed e-commerce shopify front-end design and functions<br/>
                                 * Managed marketing and advertisements operations
                     </p>
@@ -226,14 +231,13 @@ function App() {
                     
                       <h2 class="section-heading1">My Software Skill Sets</h2>
                       <hr class="intro-divider"/>
-        <div class="bar learning" data-skill="Android XML/Java/C++"></div>
         <div class="bar learning1" data-skill="AWS/Linux"></div>
         <div class="bar back basic" data-skill="Python"></div>
         <div class="bar back intermediate" data-skill="MySQL/PSQL"></div>
         <div class="bar front advanced" data-skill="Excel"></div>
         <div class="bar front expert" data-skill="Tableau"></div>
         <div class="bar front expert3" data-skill="Statistics/Mathematics"></div>
-        <div class="bar front expert2" data-skill="Node.js"></div>
+        <div class="bar front expert2" data-skill="XML/Java/C++/Node.js"></div>
                   
                     </div>
                     
